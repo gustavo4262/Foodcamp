@@ -107,12 +107,10 @@ body {
   font-family: "Roboto", sans-serif;
   border-radius: 50px;
   border: none;
+  background-color: #cbcbcb;
+  font-weight: 400;
 }
 .finished {
   background-color: #32b72f;
   font-weight: 700;
-}
-.unfinished {
-  background-color: #cbcbcb;
-  font-weight: 400;
 }
