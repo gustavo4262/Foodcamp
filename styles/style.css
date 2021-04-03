@@ -109,8 +109,9 @@ body {
   border: none;
   background-color: #cbcbcb;
   font-weight: 400;
+  outline: none;
 }
 .finished {
-  background-color: #32b72f;
-  font-weight: 700;
+  background-color: #32b72f !important;
+  font-weight: 700 !important;
 }
