@@ -133,4 +133,8 @@ a {
 }
 * {
   box-sizing: border-box;
+  outline: none;
+}
+strong {
+  font-weight: 700;
 }
