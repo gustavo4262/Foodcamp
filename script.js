@@ -115,7 +115,6 @@ function sendMessage(total_price){
 
 function cancelOrder(){
     let confirm_div = document.querySelector(".confirm");
-    console.log(confirm_div);
     document.body.removeChild(confirm_div);
     document.querySelector(".top").style.opacity = 1;
     document.querySelector(".content").style.opacity = 1;
