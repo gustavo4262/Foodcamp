@@ -15,87 +15,88 @@
 </head>
 
 <body>
-    <div class="top">
-        <h1>FoodCamp</h1>
-        <h2>Sua comida em 6 minutos</h2>
-    </div>
     <div class="content">
-        <div class="container">
-            <h1>Primeiro, seu prato</h1>
-            <ul class="options">
-                <li class="item" onclick="select(1, 1)">
-                    <img src="data/images/frango_yin_yang.png">
-                    <h1>Frango Yin Yang</h1>
-                    <h2>Um pouco de batata, um pouco de salada</h2>
-                    <h3>R$ 14.90</h3>
-                </li>
-                <li class="item" onclick="select(1, 2)">
-                    <img src="data/images/frango_yin_yang.png">
-                    <h1>Frango Yin Yang</h1>
-                    <h2>Um pouco de batata, um pouco de salada</h2>
-                    <h3>R$ 14.90</h3>
-                </li>
-                <li class="item" onclick="select(1, 3)">
-                    <img src="data/images/frango_yin_yang.png">
-                    <h1>Frango Yin Yang</h1>
-                    <h2>Um pouco de batata, um pouco de salada</h2>
-                    <h3>R$ 14.90</h3>
-                </li>
-            </ul>
+        <div class="top">
+            <h1>FoodCamp</h1>
+            <h2>Sua comida em 6 minutos</h2>
         </div>
+        <div class="content">
+            <div class="container">
+                <h1>Primeiro, seu prato</h1>
+                <ul class="options">
+                    <li class="item" onclick="select(1, 1)">
+                        <img src="data/images/frango_yin_yang.png">
+                        <h1>Frango Yin Yang</h1>
+                        <h2>Um pouco de batata, um pouco de salada</h2>
+                        <h3>R$ 14.90</h3>
+                    </li>
+                    <li class="item" onclick="select(1, 2)">
+                        <img src="data/images/frango_yin_yang.png">
+                        <h1>Carne ao ponto</h1>
+                        <h2>Carne muito gostosa</h2>
+                        <h3>R$ 18.90</h3>
+                    </li>
+                    <li class="item" onclick="select(1, 3)">
+                        <img src="data/images/frango_yin_yang.png">
+                        <h1>Peixe com fritas</h1>
+                        <h2>O prato da casa</h2>
+                        <h3>R$ 20.90</h3>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="container">
-            <h1>Agora, sua bebida</h1>
-            <ul class="options">
-                <li class="item" onclick="select(2, 1)">
-                    <img src="data/images/coquinha_gelada.png">
-                    <h1>Coquinha gelada</h1>
-                    <h2>Lata 350ml</h2>
-                    <h3>R$ 4.90</h3>
-                </li>
-                <li class="item" onclick="select(2, 2)">
-                    <img src="data/images/coquinha_gelada.png">
-                    <h1>Coquinha gelada</h1>
-                    <h2>Lata 350ml</h2>
-                    <h3>R$ 4.90</h3>
-                </li>
-                <li class="item" onclick="select(2, 3)">
-                    <img src="data/images/coquinha_gelada.png">
-                    <h1>Coquinha gelada</h1>
-                    <h2>Lata 350ml</h2>
-                    <h3>R$ 4.90</h3>
-                </li>
-            </ul>
+            <div class="container">
+                <h1>Agora, sua bebida</h1>
+                <ul class="options">
+                    <li class="item" onclick="select(2, 1)">
+                        <img src="data/images/coquinha_gelada.png">
+                        <h1>Coquinha gelada</h1>
+                        <h2>Lata 350ml</h2>
+                        <h3>R$ 4.90</h3>
+                    </li>
+                    <li class="item" onclick="select(2, 2)">
+                        <img src="data/images/coquinha_gelada.png">
+                        <h1>Coquinha gelada</h1>
+                        <h2>Lata 600ml</h2>
+                        <h3>R$ 7.90</h3>
+                    </li>
+                    <li class="item" onclick="select(2, 3)">
+                        <img src="data/images/coquinha_gelada.png">
+                        <h1>Coquinha gelada</h1>
+                        <h2>Lata 1L</h2>
+                        <h3>R$ 10.90</h3>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <h1>Por fim, sua sobremesa</h1>
+                <ul class="options">
+                    <li class="item" onclick="select(3, 1)">
+                        <img src="data/images/pudim.png">
+                        <h1>Pudim normal</h1>
+                        <h2>Apenas pudim</h2>
+                        <h3>R$ 7.90</h3>
+                    </li>
+                    <li class="item" onclick="select(3, 2)">
+                        <img src="data/images/pudim.png">
+                        <h1>Pudim de Leite Ninho</h1>
+                        <h2>Deliciosa cobertura especial</h2>
+                        <h3>R$ 9.89</h3>
+                    </li>
+                    <li class="item" onclick="select(3, 3)">
+                        <img src="data/images/pudim.png">
+                        <h1>Pudim de passas</h1>
+                        <h2>Pudim piorado</h2>
+                        <h3>R$ 5.90</h3>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="order">
+                <button onclick="confirmOrder()">Selecione os 3 itens <br>para fechar o pedido</button>
+            </div>
         </div>
-
-        <div class="container">
-            <h1>Por fim, sua sobremesa</h1>
-            <ul class="options">
-                <li class="item" onclick="select(3, 1)">
-                    <img src="data/images/pudim.png">
-                    <h1>Pudim</h1>
-                    <h2>Apenas pudim</h2>
-                    <h3>R$ 7.90</h3>
-                </li>
-                <li class="item" onclick="select(3, 2)">
-                    <img src="data/images/pudim.png">
-                    <h1>Pudim</h1>
-                    <h2>Apenas pudim</h2>
-                    <h3>R$ 7.90</h3>
-                </li>
-                <li class="item" onclick="select(3, 3)">
-                    <img src="data/images/pudim.png">
-                    <h1>Pudim</h1>
-                    <h2>Apenas pudim</h2>
-                    <h3>R$ 7.90</h3>
-                </li>
-            </ul>
-        </div>
-
-        <div class="order">
-            <button onclick="confirmOrder()">Selecione os 3 itens <br>para fechar o pedido</button>
-        </div>
-
     </div>
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>

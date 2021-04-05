@@ -89,7 +89,6 @@ function confirmOrder(){
         cancel_button.setAttribute("class", "cancel");
         confirm_div.appendChild(cancel_button);
 
-        document.querySelector(".top").style.opacity = 0.8;
         document.querySelector(".content").style.opacity = 0.8;
     }
 }
